@@ -1,5 +1,602 @@
-<!DOCTYPE HTML>
-<meta http-equiv="refresh" content="0; url=https://www.notion.so/psdaeclip/ed6bb3390b114671a2101fc61e96f5ad/"></meta>
-<head>
-  <title>임시정부와 독립운동 스크랩 : 2019</title>
-</head>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>임시정부와 독립운동</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	opacity: 0.5;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif; }
+.mono { font-family: Nitti, 'Microsoft YaHei', '微软雅黑', monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, Nitti, 'Microsoft YaHei', '微软雅黑', monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="ed6bb339-0b11-4671-a210-1fc61e96f5ad" class="page sans"><header><img class="page-cover-image" src="http://seoul100.kr/wordpress/wp-content/uploads/2017/05/history_yoon_01.jpg" style="object-position:center 63.93%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">📰</span></div><h1 class="page-title">임시정부와 독립운동</h1></header><div class="page-body"><p id="39ee9414-cd14-4033-ace6-369fbe2dc4e0" class="block-color-gray">배경사진 : 윤봉길의사 홍커우공원 폭탄투척 의거후 기념식장(1932.4.29) ⓒ독립기념관</p><hr id="bb8536bb-d177-495d-961a-c70380096d2b"/><h1 id="b0131bd9-f1cc-4eb8-b180-599488755952" class="">&#x27;독립운동&#x27; 관련 스크랩</h1><p id="406eed15-7070-4a4c-b7bd-e9024f90860e" class="">- 박성대, 경제학과, 20190819 -</p><p id="fd870937-e79c-461f-9a82-61adfbc42c6d" class="block-color-gray">아래 링크를 클릭하면 스크랩 내용을 보실 수 있습니다.</p><div id="fc3f4bd4-6222-4805-893d-84b409d4b945" class="column-list"><div id="4d816ae1-104e-40df-9ea0-b658df5c390d" style="width:33.333333333333336%" class="column"><hr id="bbf8b1da-b83b-4cee-90cb-dad5b2ed63af"/><h3 id="742a13a7-f713-4f82-aa22-4c72f767cd0e" class="block-color-blue_background"><mark class="highlight-blue_background"><a href="Untitled 2.html"><span class="icon">⏱</span>스크랩 타임라인</a></mark></h3><hr id="bb482cdb-7a54-4208-b57c-49dbec9e2a3e"/></div><div id="ef484ffc-1e93-4602-b73a-528fdb1c6fb7" style="width:33.333333333333336%" class="column"><hr id="4f440fd1-ac1f-4f89-a711-5876e3018af5"/><h3 id="a240c34e-2715-4e1a-9675-59ebccd79e16" class="block-color-purple_background"><a href="Theme.html"><span class="icon">🗃</span>Theme: 테마 별 분류</a> </h3><hr id="c9fe4b1b-d27d-4ceb-a143-5bbf2e78ec61"/></div><div id="9a65dfab-f122-437e-bfdc-1782a0bace70" style="width:33.33333333333333%" class="column"><hr id="c3c2113e-2a30-45d9-9336-9f351906a6cd"/><h3 id="fdea7b4c-d50d-4a30-b5e0-8a87c8e02751" class="block-color-yellow_background"><a href="Untitled 3.html"><span class="icon">⭐</span>(★)별점 분류</a> </h3><hr id="62c23e57-08f6-4210-bebf-5bff4dfed0fb"/></div></div><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="b3c7c588-a93a-4cd3-aaa8-5c4c199c29f3"><div style="font-size:1.5em"><span class="icon">🗄</span></div><div style="width:100%"><strong>스크랩 페이지 별 분류 방법:
+</strong><mark class="highlight-blue_background"><strong>⏱스크랩 타임라인</strong></mark> : 스크랩한 시간 순서대로 분류하였고, 각 분류 내에서는 언론사의 이름 순으로 정렬하였습니다.
+<mark class="highlight-purple_background"><strong>🗃테마 별 분류</strong></mark> : 특정 인물이나, 주제에 대한 여러 기사 중 의미가 있다고 생각한 것들을 묶어서 하나의 테마(Theme)로 분류했습니다. 테마 내에서는 별점 기준으로 정렬했고, 동일한 별점 내에서는 스크랩 날짜가 빠른 쪽이 위로 가도록 했습니다.
+<mark class="highlight-yellow_background"><strong>⭐별점 분류</strong></mark> : 심플하게 별점에 따라 나열하였습니다. 동일한 별점 내에서는 스크랩 날짜에 따라 빠른 쪽이 위로 가도록 정렬했습니다.</div></figure><h1 id="beca123e-c6d8-4e51-8412-7d6f26accc7e" class="">개요</h1><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="679a02ca-1743-4282-901f-6350d684c977"><div style="font-size:1.5em"><span class="icon">📖</span></div><div style="width:100%"><strong>본 페이지에 대한 안내 :</strong> 본 페이지는 2019 2학기 국민대학교 임시정부와 독립운동 강의의 스크랩 과제 페이지 입니다.
+clip.psdae.com (<a href="http://clip.psdae.com">바로가기</a>) 를 통해 접속하실 수 있습니다. 만약 위 링크가 안 될 경우 <a href="http://clip2.psdae.com">clip2.psdae.com</a> 으로 접속해주세요.
+
+<em><strong>본 페이지는 온라인, 데스크탑 환경에 최적화되어있습니다. 모바일에서는 로딩시간이 길어질 수 있습니다.
+본 페이지의 가장 멋진 모습은 PC의 큰 화면을 통해 보실 수 있습니다.</strong></em>
+페이지에 오류 사항이 있을 경우 psdae62@gmail.com으로이메일 보내주시면 바로 수정하겠습니다.</div></figure><figure class="block-color-yellow_background callout" style="white-space:pre-wrap;display:flex" id="91f0af42-94ec-44a0-b4e5-947f012adfc4"><div style="font-size:1.5em"><span class="icon">📐</span></div><div style="width:100%"><strong>과제 작성 방법</strong> : 
+9월 3일부터 한 주에 1~2회, 수요일에 지정된 언론사 사이트를 통해 기사를 pdf 프린트하고 Notion에 정리하는 방법으로 스크랩했습니다.
+
+기사 정리와 코멘트 등은 Notion을 사용해 작성하였습니다. 
+세부 방법은 다음과 같습니다.
+1. 기사는 제목은 스크린샷으로, 본문은 원문을 복사하여 넣었으며 그림은 페이지 수가 너무 늘어나서 제외했습니다.
+2. 스크랩 날짜, 정보, 기사 날짜, 제목 등을 표기 한 뒤,
+3. 기사 본문을 읽으며 흥미로웠던 내용, 주된 정보, 내용이 전환되는 부분 중 마음에 가는 부분들을 <mark class="highlight-orange_background">하이라이트</mark>하여 표시했습니다.
+4. 기사를 읽은 뒤에는 한 줄로 어떤 기사인지 적은 뒤, 3가지 항목에 각 ★부터 ★★★★★까지 점수를 정하고, 합산하여 해당 기사의 별점을 기사 제목 맨 앞에 명시했습니다.
+
+<strong>코멘트 항목, 방식
+</strong>코멘트는 3가지 항목으로 기사를 &#x27;주관적&#x27;으로 평가하는 형식으로 작성했습니다.
+3가지 항목은 다음과 같습니다.
+<strong><em>몰입도</em></strong> : 기사의 내용에 대해 공감하고, 이해하며 빠져들어 읽었는지.
+<strong><em>정보성</em></strong> : 기사에서 전달하는 정보가 유용한지, 빈 정보가 적고 쉽게 이해할 수 있는 정보인지.
+<strong><em>짜임새</em></strong><strong> </strong>: 기사의 구성이나 문장의 사용 등이 짜임새있었는지 / 보도의 경우 자료와 나래이션 등이 짜임새있게 구성되었는지.
+
+평가 항목을 위 3가지로 정해, 스크랩을 하는 시점마다 코멘트의 형식이 크게 달라지는 것(습관)을 방지하고 기사를 분류하는 방법으로 활용하려 했습니다.
+기사 읽기의 포인트를 위 3가지에 두어 평가하지만, <strong>객관성을 중요시한 평가가 아닌 그날 그날 느낀점을 그대로 썼습니다.</strong>  때문에 당일의 컨디션이나 관심이 생긴 이슈들에 따라 점수에 약간의 변동이 있을 수 있습니다.
+점수는 절대적인 기사의 가치 척도가 아니며, <strong>그 기사를 읽을 때 저는 그렇게 생각했다는 정도로만 보시면 좋을 것 같습니다.
+
+스크랩 페이지
+</strong>기본적으로 모든 스크랩은 <a href="Untitled 2.html"><span class="icon">⏱</span>스크랩 타임라인</a> 에 시간 순서대로 스크랩-코멘트되어 저장됩니다.
+하지만, 시간 순서만으로는 스크랩 한 내용들을 보는 데 흥미가 떨어지니 다른 기준점을 통해 기사를 분류 정렬해 새로운 &#x27;스크랩 페이지&#x27;에 담아 놓았습니다.
+각 스크랩 페이지는 스크랩 내용들을 어떠한 기준에 따라 분류하고, 분류에 따른 추가적인 코멘트를 남겨놓았습니다.
+자세한 사항은 본 페이지의 앞부분에 있는 <mark class="highlight-gray_background">🗄스크랩 페이지 별 분류 방법</mark>을 참고해주세요</div></figure><figure class="block-color-purple_background callout" style="white-space:pre-wrap;display:flex" id="5d370388-4732-4e81-83cd-15744e8223be"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%"><strong>과제를 끝마치며:
+ </strong>50개나 되는 기사를 긴 기간에 걸쳐 스크랩 한 것은 처음 해본 경험이었습니다. 결코 만만하지 않은 작업이었습니다. 초반엔 아무 생각 없이 손 가는 데로 코멘트를 달다가 결국 중구난방이 되어 처음부터 기준을 세워 다시 코멘트를 달기도 했고, 스크랩 기록 매체를 워드, 구글 문서로 옮겨 다니다가 Notion에 겨우 정착하기도 했습니다. 제출 전날 집의 프린트로 전체 내용을 뽑다가, 프린트가 과열되어 고장나는 해프닝도 있었습니다. (가정용 프린트에서는 한번에 50장 이상을 뽑을 때는 조심해야 한다는 것을 깨달았죠..)
+ 그래도 힘들었던 만큼 얻어간 것도 있습니다. 기사를 &#x27;평가&#x27;하는 방식으로 코멘트를 달다 보니, 제가 쓴 다른 보고서에서 기사에서 스크랩하며 지적했던 문체를 그대로 사용하고 있었습니다. 사소한 것이었을지도 모르겠지만, 스크랩하면서 &#x27;글의 읽힘&#x27;에 대해 생각해보면서 좀 더 성장(?)할 수 있었던 재미있는 경험이었습니다.
+ 또 독립운동가에 대해 참 많이 알게 된 것 같습니다. 모종의 이유로 교과서를 통해 잘 언급되지 않는 인물이나, 큰 인물을 지탱했지만 정적 우리는 모르는 그런 인물들을 많이 알게 되었습니다. 3·1운동도 빼놓을 수 없죠. 운 좋게도 스크랩하는 시기에 맞춰 아주 좋은 3·1운동 관련 기사들이 나왔습니다. 정말로 작은 책으로 엮어도 될 것 같은 기사들은 재미있기도 했고, 만세운동의 뒤에 있었던 사람들의 행동이 알고 있는(배운) 지식과 연결되어 생생하게 기억되었습니다.
+ 내년이 되어도 잊지 않고 기억할 만한 과제이자 경험이었습니다.</div></figure></div></article></body></html>
